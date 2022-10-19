@@ -60,6 +60,10 @@ a:hover {
     font-size: 24px;
 }
 
+.col-sm-12 p {
+    font-size: 15px;
+}
+
 .col-sm-12 h3 {
     text-transform: none;
     font-size: 20px;
