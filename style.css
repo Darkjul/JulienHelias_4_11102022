@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+:focus {
+    border: solid black 4px;
+}
+
+.btn:focus {
+    background: blue;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -546,6 +554,10 @@ button {
     box-shadow: none;
 }
 
+form label {
+    width: 100%;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -568,7 +580,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    /*display: block;*/
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
